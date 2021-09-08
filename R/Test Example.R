@@ -31,9 +31,9 @@ BLSGM_TIC_R <- getBLSGM_TIC_Random(dat = P1_dat, nT = 10, traj_var = "Y", t_var 
 ################################
 #### Paper 2 ###################
 ################################
-data("E2_dat")
+data("P2_dat")
 BLSGMM_1st <- get_BLSGMM_1st(dat = E2_dat, nT = 10, nClass = 2, traj_var = "Y", t_var = "T", paraNames = paraFixed)
-BLSGMM_2nd <- get_BLSGMM_2nd(dat = E2_dat, nT = 10, nClass = 2, traj_var = "Y", t_var = "T", clus_cov = c("gx1", "gx2"), starts = BLSGMM_1st[[3]], beta_starts = c(0, 1, 1))
+BLSGMM_2nd <- get_BLSGMM_2nd(dat = E2_dat, nT = 10, nClass = 2, traj_var = "Y", t_var = "T", clus_cov = c("x1", "x2"), starts = BLSGMM_1st[[3]], beta_starts = c(0, 1, 1))
 
 ################################
 #### Extension 1 ###############
