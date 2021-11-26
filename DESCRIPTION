@@ -1,0 +1,12 @@
+Package: NonlinearCurve
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: Jin Liu <Veronica.Liu0206@gmail.com>
+Description: The package is for exploring the heterogeneity in longitudinal records with underlying
+    nonlinear change patterns and their possible causes in the framework of individual measurement
+    occasions. 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
